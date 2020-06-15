@@ -4,7 +4,7 @@ permalink: /machine-learning/
 title: "Machine Learning Posts"
 author_profile: true
 header:
-  image: "/images/porta.PNG"
+  image: "/images/porta2.PNG"
 ---
 
 

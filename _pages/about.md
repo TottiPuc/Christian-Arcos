@@ -2,7 +2,7 @@
 title: "About Me"
 permalink: /about/
 header:
-  image: "/images/coliseo.PNG"
+  image: "/images/coliseo2.PNG"
   caption: "Roman Colosseum "
 classes: wide
 ---
