@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Christian Arcos Gordillo"
   avatar           : "/images/totti.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D Electrical Engineering"
+  bio              : "I'm a Ph.D in Electrical Engineering with background in continuous speech recognition"
   location         : "Bucaramanga, CO"
   email            : 
   links:
@@ -107,7 +107,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/ChristianArco18"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
