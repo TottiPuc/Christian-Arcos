@@ -5,10 +5,12 @@ header:
   image: "/images/logo.PNG"
 ---
 
-
+<figure style="width: 30%" class="align-right">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/hawaiicolombia.jpg" alt="colombia">
+</figure> 
 
 I’m an apsiring data scientist, experienced with Python and R programming. I specialize in machine learning techniques, and data wrangling. I love working on projects together, so feel free to reach out for collaboration!
-{: .text-justify}
+
 
 I am a Colombian man dedicated entirely to the study of the different areas, novelties and tools that technology provides, especially everything related to the artificial intelligence world. Since I was doing my high school studies, I have already carried out projects that consisted of creating voice synthesizers, since from that time I was interested in analyzing routine situations that had to do with the advantages that artificial intelligence could offer in its different scopes.
 {: .text-justify}
