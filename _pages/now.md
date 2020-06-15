@@ -1,5 +1,5 @@
 ---
-title: "NOW"
+title: "Now"
 permalink: /now/
 header:
   image: "/images/logo.PNG"

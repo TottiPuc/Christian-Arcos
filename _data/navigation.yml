@@ -1,16 +1,16 @@
 # main links
 main:
-  - title: "HOME"
+  - title: "Home"
     url: /index.html
-  - title: "ABOUT"
+  - title: "About"
     url: /about/
-  - title: "RESUME"
+  - title: "Resume"
     url: http://www.aiconsulting.tech/
-  - title: "PUBLICATIONS"
+  - title: "Publications"
     url: http://www.aiconsulting.tech/
-  - title: "NOW"
+  - title: "Now"
     url: /now/
-  - title: "MACHINE LEARNING POSTS"
+  - title: "Machine Learning Posts"
     url: /machine-learning/
   # - title: "Sample Collections"
   #   url: /collection-archive/
