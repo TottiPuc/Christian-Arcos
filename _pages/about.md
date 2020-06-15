@@ -5,7 +5,7 @@ header:
   image: "/images/logo.PNG"
 ---
 
-<figure style="width: 40%" class="align-right">
+<figure style="width: 50%" class="align-right">
   <img src="{{ site.url }}{{ site.baseurl }}/images/colombia.jpg" alt="colombia">
 </figure> 
 
@@ -18,7 +18,7 @@ In 2011 I had a bachelors degree electronic engineer from  Francisco de Paula Sa
 I followed my instincts and for the next 2 years after 2011 I started an adventure thanks to the Brazilian government that allowed me to start my master degree at Pontifical Catholic University of Rio de Janeiro.  Where I did my dissertation in Continuous Speech Recognition with MFCC and PNCC features and robustness techniques Wavelet Denoising, Histogram Mapping, Spectral Subtraction and Filter with Neural Networks. 
 {: .text-justify}
 
-<figure style="width: 40%" class="align-right">
+<figure style="width: 48%" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/images/phd.jpg" alt="phd">
 </figure> 
 
