@@ -3,7 +3,8 @@ title: "About"
 permalink: /about/
 header:
   image: "/images/roma.jpg"
-  caption: "Photo on roman colosseum "
+  caption: "Photo in Roman Colosseum "
+classes: wide
 ---
 
 <figure style="width: 50%;margin-top:0px;margin-bottom:0px;" class="align-right">
