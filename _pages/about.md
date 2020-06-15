@@ -2,10 +2,11 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/logo.PNG"
+  image: "/images/roma.jpg"
+  caption: "Photo on roman colosseum "
 ---
 
-<figure style="width: 50%" class="align-right">
+<figure style="width: 50%;margin-top:0px;margin-bottom:0px;" class="align-right">
   <img src="{{ site.url }}{{ site.baseurl }}/images/colombia.jpg" alt="colombia">
 </figure> 
 
