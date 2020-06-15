@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Christian Arcos Gordillo"
-  avatar           : "/images/totti.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/totti1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I'm a Ph.D in Electrical Engineering with background in continuous speech recognition"
   location         : "Bucaramanga, CO"
   email            : 
