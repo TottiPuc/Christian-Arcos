@@ -14,7 +14,7 @@ header:
 I'm a Machine Learning scientist that was born in Pasto - Colombia a city located in the Atriz Valley on the Andes cordillera, at the foot of the Galeras volcano.
 {: .text-justify}
 
-In 2011 I had a bachelors degree electronic engineer from  Francisco de Paula Santander University. (Colombia), where I did my final work on Supervise and support in mechatronic automation projects of the International Clean Production Center Lope from SENA and it was at this time where my interest in machine learning and signal processing grew. 
+In 2011 I had my bachelors degree as Electronic Engineer from  Francisco de Paula Santander University. (Colombia), where I did my final work on Supervise and support in mechatronic automation projects from International Clean Production Center Lope from SENA and it was at this time where my interest in machine learning and signal processing grew. 
 {: .text-justify}
 
 I followed my instincts and for the next 2 years after 2011 I started an adventure thanks to the Brazilian government that allowed me to start my master degree at Pontifical Catholic University of Rio de Janeiro.  Where I did my dissertation in Continuous Speech Recognition with MFCC and PNCC features and robustness techniques Wavelet Denoising, Histogram Mapping, Spectral Subtraction and Filter with Neural Networks. 
