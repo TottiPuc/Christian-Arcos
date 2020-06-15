@@ -1,9 +1,9 @@
 ---
-title: "About"
+title: "About Me"
 permalink: /about/
 header:
   image: "/images/coliseo.PNG"
-  caption: "Photo in Roman Colosseum "
+  caption: "Roman Colosseum "
 classes: wide
 ---
 
