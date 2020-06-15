@@ -12,7 +12,7 @@ main:
     url: /now/
   - title: "Machine Learning Posts"
     url: /machine-learning/
-  - title: "Test"
-    url: /test/
+  # - title: "Test"
+  #  url: /test/
   # - title: "Sitemap"
   #   url: /sitemap/
