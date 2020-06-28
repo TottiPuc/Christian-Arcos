@@ -27,7 +27,7 @@ feature_row3:
     alt: "speech recognition"
     title: "Speech Recognition system"
     excerpt: 'Speech recognition for people with amyotrophic lateral sclerosis (ALS). Which is a long-term project that I'm not ready to share yet, but you will soon notice!'
-   # url: "#test-link"
+    #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
 ---
@@ -38,3 +38,4 @@ feature_row3:
 
 {% include feature_row id="feature_row3" type="right" %}
 
+{% include feature_row id="feature_row4" type="center" %}
