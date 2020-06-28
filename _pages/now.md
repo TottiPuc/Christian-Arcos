@@ -23,7 +23,7 @@ feature_row2:
     #btn_label: "Read More"
     #btn_class: "btn--primary"
 feature_row3:
-  - image_path: /images/speech.jpeg
+  - image_path: /images/speech.jpg
     alt: "speech recognition"
     title: "Speech Recognition system"
     excerpt: 'Speech recognition for people with amyotrophic lateral sclerosis (ALS). Which is a long-term project that I'm not ready to share yet, but you will soon notice!'
