@@ -23,7 +23,7 @@ feature_row3:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "speech recognition"
     title: "Speech Recognition System"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+    excerpt: 'Speech recognition for people with amyotrophic lateral sclerosis. Which is a long term project that I am not ready to share yet, but you will soon notice.'
 feature_row4:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
