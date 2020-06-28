@@ -17,7 +17,7 @@ intro:
 feature_row2:
   - image_path: /images/citrus.jpg
     alt: "hyperspectral image"
-    title: "Placeholder Image Left Aligned"
+    title: "Deep Image Fusion"
     excerpt: 'Development of an optical-computational system for the fusion of depth and hyperspectral images using deep learning techniques and their application in the classification of citrus by its level of maturity.'
 feature_row3:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
