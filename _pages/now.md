@@ -13,7 +13,7 @@ header:
   caption: "Deep Learning"
 excerpt: "What I'm up to?. I am currently working on two major projects in the two great branches of AI, speech recognition and computer vision."
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.  `Marie Curie`'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
