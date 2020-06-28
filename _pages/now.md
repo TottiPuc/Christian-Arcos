@@ -23,13 +23,13 @@ feature_row2:
     #btn_label: "Read More"
     #btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  - image_path: /images/speech.jpeg
+    alt: "speech recognition"
+    title: "Speech Recognition system"
+    excerpt: 'Speech recognition for people with amyotrophic lateral sclerosis (ALS). Which is a long-term project that I'm not ready to share yet, but you will soon notice!'
+    #url: "#test-link"
+    #btn_label: "Read More"
+    #btn_class: "btn--primary"
 feature_row4:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
