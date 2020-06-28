@@ -23,7 +23,10 @@ feature_row3:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "speech recognition"
     title: "Speech Recognition System"
-    excerpt: 'Speech recognition for people with amyotrophic lateral sclerosis (ALS). Which is a long-term project that I'm not ready to share yet, but you will soon notice!'
+    excerpt: 'Speech recognition for people with amyotrophic lateral sclerosis (ALS). Which is a long-term project that I'm not ready to share yet, but you will soon notice'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
