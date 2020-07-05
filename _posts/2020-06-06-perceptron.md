@@ -1,8 +1,9 @@
 ---
 title: "GPU conceptos basicos"
 date: 2020-07-05
+tags: [GPU]
 header:
-  image: "/images/GPU/GPU1.PNG"
+  image: "/images/GPU/GPU.PNG"
 excerpt: "Machine Learning, Perceptron, Neural Network"
 mathjax: "true"
 ---
