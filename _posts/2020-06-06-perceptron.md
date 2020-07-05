@@ -3,7 +3,7 @@ title: "GPU conceptos basicos"
 date: 2020-07-05
 #tags: [machine learning, neural network]
 header:
-  image: "/images/GPU/GPU.jpg"
+  image: "/images/GPU/GPU1.PNG"
 excerpt: "Machine Learning, Perceptron, Neural Network"
 mathjax: "true"
 ---
@@ -12,7 +12,7 @@ mathjax: "true"
 
 En este artículo hablaremos de las Unidades de Procesamiento Grafico o *(GPU)* por sus siglas en ingles  
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/GPU/gpus.PNG)
+{% include figure image_path="/images/GPU/gpus.PNG" alt="gpu tesla" caption="GPUs Nvidia"%}
 
 
 Uno de los principales conceptos cuando se habla de *machine learning* es el de programación paralela, muchos de los procesos realizados en algoritmos de aprendizaje de maquina son secuenciales esto es se deben ejecutar una serie de funciones de manera continua, una tras de la otra lo que hace que el tiempo de ejecución sea elevado, sin embargo muchas de las funciones o métodos de los algoritmos de aprendizaje pueden ser ejecutados de forma paralela reduciendo el tiempo computacional haciendo que nuestros algoritmos sean mucho más eficientes. 
@@ -21,7 +21,10 @@ Uno de los principales conceptos cuando se habla de *machine learning* es el de 
 Para esta razon se hace uso de las GPUs que son dispositivos especializados en procesar grandes cantidades de operaciones matemáticas de punto flotante, y  que ofrecen una alta capacidad de procesamiento masivo paralelo en cálculos que exigen un volumen grande de datos, permitiendo un rápido acceso  tanto a memoria como en las operaciones vectoriales y de interpolación.
 {: .text-justify}
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/GPU/gp.PNG)
+<figure style="width: 100%" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/gp.PNG" alt="cpu vs gpu">
+</figure> 
+
 
 Sin embargo para poder hacer uso de las bondades y aprovechar el poder que ofrecen las GPUs es indispensable contar con *frameworks* que nos permitan programarlas. Para este ofjetivo Nvidia desarrollo la plataforma  *Compute Unified Driver Arquitecture* (CUDA)  que soporta lenguajes de programación como C, C++, Fortran Python y Matlab, y que permite a los progrmadores desarrollar aplicaciones escalables sin la necesidad de incorporar nuevos componentes de programación.
 {: .text-justify}
