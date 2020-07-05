@@ -1,14 +1,12 @@
 ---
 title: "GPU conceptos basicos"
 date: 2020-07-05
-#tags: [machine learning, neural network]
 header:
   image: "/images/GPU/GPU1.PNG"
 excerpt: "Machine Learning, Perceptron, Neural Network"
 mathjax: "true"
 ---
 
-# Introducción a las GPU
 
 En este artículo hablaremos de las Unidades de Procesamiento Grafico o *(GPU)* por sus siglas en ingles  
 
@@ -21,9 +19,8 @@ Uno de los principales conceptos cuando se habla de *machine learning* es el de 
 Para esta razon se hace uso de las GPUs que son dispositivos especializados en procesar grandes cantidades de operaciones matemáticas de punto flotante, y  que ofrecen una alta capacidad de procesamiento masivo paralelo en cálculos que exigen un volumen grande de datos, permitiendo un rápido acceso  tanto a memoria como en las operaciones vectoriales y de interpolación.
 {: .text-justify}
 
-<figure style="width: 100%" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/gp.PNG" alt="cpu vs gpu">
-</figure> 
+
+{% include figure image_path="/images/GPU/gp.PNG" alt="gpu tesla" caption="CPU vs GPU"%}
 
 
 Sin embargo para poder hacer uso de las bondades y aprovechar el poder que ofrecen las GPUs es indispensable contar con *frameworks* que nos permitan programarlas. Para este ofjetivo Nvidia desarrollo la plataforma  *Compute Unified Driver Arquitecture* (CUDA)  que soporta lenguajes de programación como C, C++, Fortran Python y Matlab, y que permite a los progrmadores desarrollar aplicaciones escalables sin la necesidad de incorporar nuevos componentes de programación.
@@ -32,7 +29,9 @@ Sin embargo para poder hacer uso de las bondades y aprovechar el poder que ofrec
 
 Para entender cómo funcionan estos dispositivos tan poderosos es importante conocer su arquitectura
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/GPU/arqui.PNG)
+{% include figure image_path="/images/GPU/arqui.PNG" alt="gpu tesla" caption="Arquitectura GPU"%}
+
+
 
 En este ejemplo contamos con dos *streaming multiprocessors* (MS) que son el corazón de las GPUs cada MS posee diferentes *streaming processors* (SP) o también llamados *cuda cores* (la cantidad de SPs depende del *compute capability* o capacidad de cálculo de la GPU, entre mayor sea el *compute capability* mejor será la arquitecturas de GPUs), los cuales pueden interactuar con el registrador, cada SM contiene diferentes tipos de memorias siendo la más común la *device memory* que puede ser accedida por todos los SP tanto  para lectura como para escritura de datos y que es común para todas las SMs, esto es realmente importante para poder administrar que cantidad de memoria queremos utilizar en nuestra aplicación, ya en la parte interior de cada SM se cuenta con una *shared memory* que puede ser accedida por todos los SPs también para lectura y escritura, finalmente existen dos tipos especiales de memoria interna a cada SM la *Constant Memory* y la *Texture Memory* teniendo como características principales que estas dos memorias solo tiene capacidad de lectura de datos y no de escritura 
 {: .text-justify}
