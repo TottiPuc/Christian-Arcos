@@ -19,6 +19,9 @@ feature_row2:
     alt: "hyperspectral image"
     title: "Deep Image Fusion"
     excerpt: 'Development of an optical-computational system for the fusion of depth and hyperspectral images using deep learning techniques and their application in the classification of citrus by its level of maturity.'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 feature_row3:
   - image_path: /images/speech.jpg
     alt: "speech recognition"
