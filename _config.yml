@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "MACHINE LEARNING SCIENTIST"
+title                    : "MACHINE LEARNING RESEARCH"
 title_separator          : "-"
 subtitle                 : "PostDoctoral Research Fellow at HDSP Group" # site tagline that appears below site title in masthead
 name                     : "Christian Dayan Arcos Gordillo"
@@ -96,7 +96,7 @@ author:
   name             : "Christian Arcos Gordillo"
   avatar           : "/images/totti1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I'm a Ph.D in Electrical Engineering with background in continuous speech recognition"
-  location         : "Bucaramanga, CO"
+  location         : "Medellin, CO"
   email            : 
   links:
     - label: "Email"
