@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "MACHINE LEARNING RESEARCH"
 title_separator          : "-"
-subtitle                 : "PostDoctoral Research Fellow at HDSP Group" # site tagline that appears below site title in masthead
+subtitle                 : "Machine Learning Engineer Lead at VOZY" # site tagline that appears below site title in masthead
 name                     : "Christian Dayan Arcos Gordillo"
 description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Christian Arcos Gordillo"
   avatar           : "/images/totti1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'm a Ph.D in Electrical Engineering with background in continuous speech recognition"
+  bio              : "I'm a Ph.D in Electrical Engineering with background in continuous speech recognition and computer vision"
   location         : "Medellin, CO"
   email            : 
   links:
