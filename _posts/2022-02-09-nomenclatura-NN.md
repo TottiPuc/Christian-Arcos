@@ -15,24 +15,30 @@ Vamos a suponer que queremos realizar un clasificador binario que nos diga si ex
 <figure style="width: 40%" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/images/nomenclatura/ZEUS.png" alt="golden">
 </figure>  
-{% include figure image_path="/images/nomenclatura/ZEUS.png" alt="golden" caption="clasificacion"%}
  
 esto es:
  
 1 --> (perro)
+
 0 --> (no perro)
  
 donde 0 y 1 representan la salida de nuestro clasificador , matemáticamente representado por la letra 'y'  también conocida como etiqueta o label
  
-Sin embargo presentar una imagen a un computador y que la interprete no es una tarea simple, ya que las imágenes tradicionales que conocemos son la representación de una matriz de números con diferentes valores (conocidos como pixeles), los cuales representan la intensidad del color. Sin embargo no solo se trata de una matriz que representa todos los posibles colores, cada color viene representado por su propia matriz, asi al final una foto tradicional en el formato RGB no es más que una superposición de capas con diferentes colores, como se puede ver en la siguiente imagen.
+Sin embargo, presentar una imagen a un computador y que la interprete no es una tarea simple, ya que las imágenes tradicionales que conocemos son la representación de una matriz de números con diferentes valores (conocidos como pixeles), los cuales representan la intensidad del color. Sin embargo no solo se trata de una matriz que representa todos los posibles colores, cada color viene representado por su propia matriz, asi al final una foto tradicional en el formato RGB no es más que una superposición de capas con diferentes colores, como se puede ver en la siguiente imagen.
+
+<figure style="width: 40%" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/nomenclatura/rgb.png" alt="rgb">
+</figure> 
+
  
-{% include figure image_path="/images/nomenclatura/rgb.png" alt="rgb" caption="representacion rgb"%}
+Ahora, asumiendo que nuestra imagen es de un tamaño de 64x64 pixeles, lo que quiere decir que cada canal de color tambein tiene la misma dimension, es hora de presentarle esa informacion a nuestro ordenador, pero para eso estas intensidades de color (pixeles) se deben presentar como un vector de caracteristicas donde cada fila de nuestras matrices RGB sera puesta en una sola columna una detras de otra para formar asi un vector de características de 1xN, donde N sera la dimensión de nuestra imágen en nuesro ejemplo (64x64).
+
+
+<figure style="width: 70%" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/nomenclatura/vectores.png" alt="vector">
+</figure> 
  
-Ahora asumiendo que nuestra imagen es de un tamaño de 64x64 pixeles, lo que quiere decir que cada canal de color tambein tiene la misma dimension, es hora de presentarle esa informacion a nuestro ordenador, pero para eso estas intensidades de color (pixeles) se deben presentar como un vector de caracteristicas donde cada fila de nuestras matrices RGB sera puesta en una sola columna una detras de otra para formar asi un vector de características de 1xN, donde N sera la dimensión de nuestra imágen en nuesro ejemplo (64x64).
- 
- 
-{% include figure image_path="/images/nomenclatura/vector.png" alt="vector" caption="representación de características"%}
- 
-de esta forma nuestro vector de características de entrada será representado por:
+de esta forma nuestro vector (X) de características de entrada será representado por:
  
 $$ N_{x}= 12288 $$
+
