@@ -12,6 +12,9 @@ Uno de los problemas más frecuentes cuando escribimos un artículo o leemos sob
  
 Vamos a suponer que queremos realizar un clasificador binario que nos diga si existe o no un perro en la siguiente foto
  
+<figure style="width: 40%" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/nomenclatura/ZEUS.png" alt="golden">
+</figure>  
 {% include figure image_path="/images/nomenclatura/ZEUS.png" alt="golden" caption="clasificacion"%}
  
 esto es:
