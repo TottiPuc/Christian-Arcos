@@ -31,22 +31,43 @@ Sin embargo, presentar una imagen a un computador y que la interprete no es una 
 </figure> 
 
  
-Ahora, asumiendo que nuestra imagen es de un tamaño de 64x64 pixeles, lo que quiere decir que cada canal de color tambein tiene la misma dimension, es hora de presentarle esa informacion a nuestro ordenador, pero para eso estas intensidades de color (pixeles) se deben presentar como un vector de caracteristicas donde cada fila de nuestras matrices RGB sera puesta en una sola columna una detras de otra para formar asi un vector de características de 1xN, donde N sera la dimensión de nuestra imágen en nuesro ejemplo (64x64).
+Ahora, asumiendo que nuestra imagen es de un tamaño de 64x64 pixeles, lo que quiere decir que cada canal de color tambíen tiene la misma dimension, es hora de presentarle esa informacion a nuestro ordenador, pero para eso estas intensidades de color (pixeles) se deben presentar como un vector de caracteristicas donde cada fila de nuestras matrices RGB sera puesta en una sola columna, una detras de otra para formar asi un vector de características de 1xN, donde N sera la dimensión de nuestra imágen en nuesro ejemplo (64x64).
 
 
 <figure style="width: 70%" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/images/nomenclatura/vetores.png" alt="vector">
 </figure> 
  
-de esta forma nuestro vector (X) de características de entrada será representado por:
+de esta forma nuestro vector (x) de características de entrada RGB será representado por:
  
 $$ N_{x}= 12288 $$
 
-Asi que vamos a suponer un ejemplo donde queremos realizar un clasificador donde:
-$$ X --> representa las entradas de la imagen $$
-$$ y --> corresponde a su respectiva prediccion que correspondera a 1 ó 0$$
+Retornando a nuestro ejemplo de clasificacion lo podemos resumir de las siguiente manera,:
 
-lo que nos arrojara como resultado un valor diciendonos si la imagen contiene un perro o no.
+x --> representa las entradas de la imagen 
+y --> corresponde a su respectiva prediccion con valores  1 ó 0
+{: .text-center}
 
-asi que en un ejemplo sencillo de entrenamiento tenemos un conjunto de valores en pares dado por 
-$$ (x,y) --> donde x \in \Re^{N_{x}}  and y \in {0,1}$$
+lo que nos diría si la imagen contiene un perro o no.
+
+Nuestro conjunto de entrenamiento quedaria representado por pares de  valores: 
+$$ (x,y) --> \; donde \; x \in \; \Re^{N_{x}}  \; and \; y \; \in \; (0,1)$$
+
+Por otro lado como sabemos, nuestro conjunto de datos de entrenamiento esta compuesto por un numero M de ejemplos que se representarian de la siguiente manera:
+
+$$ m = (X^{(1)}, y^{(1)}),\; (X^{(2)}, y^{(2)}), \; (X^{(m)}, y^{(m)}) = M_{train}$$
+
+y de la misma forma tendriamos nuestro conjunto de test:
+
+$$ m = (X^{(1)}, y^{(1)}),\; (X^{(2)}, y^{(2)}), \; (X^{(m)}, y^{(m)}) = M_{test}$$
+
+Finalmente para poner todos nuestros conjuntos de datos tanto de entrenamiento como de test, en una notaion compacta, definimos la forma matricial del vector x:
+
+$$ \begin{equation}
+\begin{bmatrix}
+6 & 8 & 1\\
+2 & 9 & 3\\
+4 & 5 & 1
+\end{bmatrix}
+\end{equation} $$
+
