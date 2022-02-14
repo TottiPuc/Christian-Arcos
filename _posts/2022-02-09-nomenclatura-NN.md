@@ -45,29 +45,38 @@ $$ N_{x}= 12288 $$
 Retornando a nuestro ejemplo de clasificacion lo podemos resumir de las siguiente manera,:
 
 x --> representa las entradas de la imagen 
-y --> corresponde a su respectiva prediccion con valores  1 ó 0
-{: .text-center}
 
-lo que nos diría si la imagen contiene un perro o no.
+y --> corresponde a su respectiva prediccion con valores  1 ó 0, indicandonos si la imagen contiene un perro o no.
 
-Nuestro conjunto de entrenamiento quedaria representado por pares de  valores: 
-$$ (x,y) --> \; donde \; x \in \; \Re^{N_{x}}  \; and \; y \; \in \; (0,1)$$
+
+Teniendo en cuenta lo anterior, nuestro conjunto de datos de entrenamiento quedaria representado por pares de  valores:
+
+
+$$ (x,y)  \; donde \; x \in \; \Re^{N_{x}}  \; and \; y \; \in \; (0,1)$$
 
 Por otro lado como sabemos, nuestro conjunto de datos de entrenamiento esta compuesto por un numero M de ejemplos que se representarian de la siguiente manera:
 
-$$ m = (X^{(1)}, y^{(1)}),\; (X^{(2)}, y^{(2)}), \; (X^{(m)}, y^{(m)}) = M_{train}$$
+$$ M_{train} = (x^{(1)}, y^{(1)}),\; (x^{(2)}, y^{(2)}), \; (x^{(m)}, y^{(m)}) $$
 
 y de la misma forma tendriamos nuestro conjunto de test:
 
-$$ m = (X^{(1)}, y^{(1)}),\; (X^{(2)}, y^{(2)}), \; (X^{(m)}, y^{(m)}) = M_{test}$$
+$$ M_{test} = (x^{(1)}, y^{(1)}),\; (x^{(2)}, y^{(2)}), \; (x^{(m)}, y^{(m)})$$
 
 Finalmente para poner todos nuestros conjuntos de datos tanto de entrenamiento como de test, en una notaion compacta, definimos la forma matricial del vector x:
 
 $$ \begin{equation}
-\begin{bmatrix}
-6 & 8 & 1\\
-2 & 9 & 3\\
-4 & 5 & 1
+X = \begin{bmatrix}
+...     & ... & ...\\
+x^{(1)} & x^{(2)} & x^{(m)}\\
+...     & ... & ...
 \end{bmatrix}
 \end{equation} $$
 
+donde  m es el numero de datos (ejemplos) de entrenamiento puestos en columnas, y  las filas es la cantidad de datos de informacion de cada ejemplo como en nuestro ejemplo $$N_{x}=12288$$ quedando nuestra dimension final con la siguiente nomenclatura:
+
+
+$$ X  \in \; \Re^{N_{x} x m}$$
+
+que viendolo desde codigo python sería
+
+$$ X.shape =(N_{x},m)
