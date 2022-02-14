@@ -35,10 +35,18 @@ Ahora, asumiendo que nuestra imagen es de un tamaño de 64x64 pixeles, lo que qu
 
 
 <figure style="width: 70%" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/nomenclatura/vectores.png" alt="vector">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/nomenclatura/vetores.png" alt="vector">
 </figure> 
  
 de esta forma nuestro vector (X) de características de entrada será representado por:
  
 $$ N_{x}= 12288 $$
 
+Asi que vamos a suponer un ejemplo donde queremos realizar un clasificador donde:
+$$ X --> representa las entradas de la imagen $$
+$$ y --> corresponde a su respectiva prediccion que correspondera a 1 ó 0$$
+
+lo que nos arrojara como resultado un valor diciendonos si la imagen contiene un perro o no.
+
+asi que en un ejemplo sencillo de entrenamiento tenemos un conjunto de valores en pares dado por 
+$$ (x,y) --> donde x \in \Re^{N_{x}}  and y \in {0,1}$$
