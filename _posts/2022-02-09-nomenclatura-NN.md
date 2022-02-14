@@ -32,38 +32,36 @@ Sin embargo, presentar una imagen a un computador y que la interprete no es una 
 
  
 Ahora, asumiendo que nuestra imagen es de un tamaño de 64x64 pixeles, lo que quiere decir que cada canal de color tambíen tiene la misma dimension, es hora de presentarle esa informacion a nuestro ordenador, pero para eso estas intensidades de color (pixeles) se deben presentar como un vector de caracteristicas donde cada fila de nuestras matrices RGB sera puesta en una sola columna, una detras de otra para formar asi un vector de características de 1xN, donde N sera la dimensión de nuestra imágen en nuesro ejemplo (64x64).
-
-
+ 
+ 
 <figure style="width: 70%" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/nomenclatura/vetores.png" alt="vector">
-</figure> 
- 
+ <img src="{{ site.url }}{{ site.baseurl }}/images/nomenclatura/vetores.png" alt="vector">
+</figure>
 de esta forma nuestro vector (x) de características de entrada RGB será representado por:
- 
 $$ N_{x}= 12288 $$
-
-Retornando a nuestro ejemplo de clasificacion lo podemos resumir de las siguiente manera,:
-
-x --> representa las entradas de la imagen 
-
-y --> corresponde a su respectiva prediccion con valores  1 ó 0, indicandonos si la imagen contiene un perro o no.
-
-
-Teniendo en cuenta lo anterior, nuestro conjunto de datos de entrenamiento quedaria representado por pares de  valores:
-
-
+ 
+Retornando a nuestro ejemplo de clasificación lo podemos resumir de las siguiente manera,:
+ 
+x --> representa las entradas de la imagen
+ 
+y --> corresponde a su respectiva predicción con valores  1 ó 0, indicándonos si la imagen contiene un perro o no.
+ 
+ 
+Teniendo en cuenta lo anterior, nuestro conjunto de datos de entrenamiento quedaría representado por pares de  valores:
+ 
+ 
 $$ (x,y)  \; donde \; x \in \; \Re^{N_{x}}  \; and \; y \; \in \; (0,1)$$
-
-Por otro lado como sabemos, nuestro conjunto de datos de entrenamiento esta compuesto por un numero M de ejemplos que se representarian de la siguiente manera:
-
+ 
+Por otro lado como sabemos, nuestro conjunto de datos de entrenamiento está compuesto por un número M de ejemplos que se representan de la siguiente manera:
+ 
 $$ M_{train} = (x^{(1)}, y^{(1)}),\; (x^{(2)}, y^{(2)}), \; (x^{(m)}, y^{(m)}) $$
-
-y de la misma forma tendriamos nuestro conjunto de test:
-
+ 
+y de la misma forma tendremos nuestro conjunto de test:
+ 
 $$ M_{test} = (x^{(1)}, y^{(1)}),\; (x^{(2)}, y^{(2)}), \; (x^{(m)}, y^{(m)})$$
-
-Finalmente para poner todos nuestros conjuntos de datos tanto de entrenamiento como de test, en una notaion compacta, definimos la forma matricial del vector x:
-
+ 
+Finalmente para poner todos nuestros conjuntos de datos tanto de entrenamiento como de test, en una notación compacta, definimos la forma matricial del vector x:
+ 
 $$ \begin{equation}
 X = \begin{bmatrix}
 ...     & ... & ...\\
@@ -71,12 +69,29 @@ x^{(1)} & x^{(2)} & x^{(m)}\\
 ...     & ... & ...
 \end{bmatrix}
 \end{equation} $$
-
-donde  m es el numero de datos (ejemplos) de entrenamiento puestos en columnas, y  las filas es la cantidad de datos de informacion de cada ejemplo como en nuestro ejemplo $$N_{x}=12288$$ quedando nuestra dimension final con la siguiente nomenclatura:
-
-
-$$ X  \in \; \Re^{N_{x} x m}$$
-
-que viendolo desde codigo python sería
-
-$$ X.shape =(N_{x},m)
+ 
+donde  m es el número de datos (ejemplos) de entrenamiento puestos en columnas, y  las filas es la cantidad de datos de información de cada ejemplo como en nuestro ejemplo $$N_{x}=12288$$ quedando nuestra dimensión final con la siguiente nomenclatura:
+ 
+ 
+$$ X  \in \; \Re^{N_{x} \; \times \; m}$$
+ 
+que viéndolo desde código python sería
+ 
+$$ X.shape =(N_{x},m)$$
+ 
+Finalmente las salidas o labels 'y',  puede representarse matricialmente de la siguiente manera
+ 
+ 
+$$ \begin{equation}
+Y = \begin{bmatrix}
+y^{(1)} & y^{(2)} & y^{(m)}
+\end{bmatrix}
+\end{equation} $$
+ 
+con la siguiente nomenclatura
+ 
+$$ y  \in \; \Re^{1 \; \times \; m}$$
+ 
+que viéndolo desde código python sería
+ 
+$$y.shape =(1,m)$$
