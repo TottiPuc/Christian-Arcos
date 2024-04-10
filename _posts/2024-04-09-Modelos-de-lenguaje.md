@@ -1,9 +1,9 @@
 ---
 title: "Modelos de Lenguaje, una revolucion en el procesamiento del lenguaje natural"
-date: 2022-02-09
+date: 2024-04-09
 tags: [LLM]
 header:
-  image: "/images/perceptron/nomenclatura.jpg"
+  image: "/images/posts/llm.png"
 excerpt: "Modelos de Lenguaje"
 mathjax: "true"
 ---

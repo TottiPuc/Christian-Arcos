@@ -1,7 +1,7 @@
 ---
 title: "Nomenclatura básica de redes neuronales"
 date: 2022-02-09
-tags: [redes neuronales]
+tags: [Redes Neuronales]
 header:
   image: "/images/perceptron/nomenclatura.jpg"
 excerpt: "Nomenclatura redes neuronales"
