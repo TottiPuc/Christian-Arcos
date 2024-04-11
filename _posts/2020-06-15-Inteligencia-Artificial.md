@@ -3,7 +3,7 @@ title: "Una Mirada Sencilla a la Inteligencia Artificial"
 date: 2020-07-05
 tags: [IA, Machine Learning]
 header:
-  image: "/images/posts/IA.PNG"
+  image: "/images/posts/IA.png"
 excerpt: "Inteligencia Artificial"
 mathjax: "true"
 ---
